@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+_build*/
+.bedrock_agentcore/
+.bedrock_agentcore.yaml
+uv.lock
+reports/
+sim/data/
+sim/results/
