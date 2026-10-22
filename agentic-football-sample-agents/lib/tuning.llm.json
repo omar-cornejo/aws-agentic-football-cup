@@ -1,0 +1,14 @@
+{
+  "global": {
+    "strategy": "llm",
+    "memory_v2": true,
+    "llm_deadline_ms": 1800,
+    "field_y_half": 30,
+    "model_GK": "",
+    "model_DEF": "",
+    "model_MID": "",
+    "model_FWD1": "",
+    "model_FWD2": "",
+    "player_names": {}
+  }
+}

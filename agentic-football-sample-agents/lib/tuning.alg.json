@@ -1,0 +1,81 @@
+{
+  "GK": {
+    "always_blast": false,
+    "gk_crowd_dist": 14.0,
+    "intercept_radius": 8.0
+  },
+  "DEF": {
+    "always_blast": true,
+    "build_from_back": false,
+    "mark_radius": 14.0,
+    "tackle_dist": 3.0,
+    "anchor_slack": 6.0
+  },
+  "MID": {
+    "mark_radius": 16.0,
+    "shoot_threshold": 45.0,
+    "tackle_dist": 3.0,
+    "anchor_slack": 6.0
+  },
+  "FWD1": {
+    "mark_radius": 18.0,
+    "shoot_threshold": 45.0,
+    "tackle_dist": 3.0
+  },
+  "FWD2": {
+    "mark_radius": 18.0,
+    "shoot_threshold": 45.0,
+    "tackle_dist": 3.0
+  },
+  "global": {
+    "llm_deadline_ms": 1800,
+    "coach_key": "",
+    "units_convert": true,
+    "agentcore_memory": false,
+    "memory_window_ticks": 5,
+    "line_push_DEF": 18,
+    "line_push_MID": 14,
+    "ev_shot_bias": 1.5,
+    "model_GK": "",
+    "model_DEF": "us.amazon.nova-2-lite-v1:0",
+    "model_MID": "us.amazon.nova-2-lite-v1:0",
+    "model_FWD1": "us.amazon.nova-2-lite-v1:0",
+    "model_FWD2": "us.amazon.nova-2-lite-v1:0",
+    "field_y_half": 30,
+    "stamina_low": 50,
+    "gk_sprint_ball_m": 30,
+    "sprint_min_m": 6,
+    "mem_long_m": 45,
+    "kickoff_no_long_s": 8,
+    "mem_window_s": 5,
+    "mem_miss_after": 4,
+    "mem_miss_mult": 0.5,
+    "lead_long_shot_mult": 0.8,
+    "player_names": {},
+    "blast_pressure_dist": 6.0,
+    "build_from_back": true,
+    "gk_out_dist": 18.0,
+    "longshot_max": 58.0,
+    "mark_radius": 16.0,
+    "press_radius": 22.0,
+    "compact_max_spread": 18.0,
+    "anchor_slack": 6.0,
+    "outlet_min_gain": 6.0,
+    "press_bodies": 2,
+    "shoot_lead_per_tick": 6.0,
+    "shoot_lead_ticks": 2,
+    "shoot_threshold": 45.0,
+    "tackle_dist": 3.0,
+    "ev_select": true,
+    "def_search": true,
+    "gk_ev": true,
+    "ev_support": true,
+    "ev_support_roles": "FWD1,FWD2",
+    "ev_model": "ev_model_f3.json",
+    "strategy": "alg",
+    "dsearch_csp": true,
+    "ev_lookahead": true,
+    "ev_transition": true,
+    "memory_v2": false
+  }
+}
