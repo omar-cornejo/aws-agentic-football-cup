@@ -8,6 +8,13 @@ The team started from the `ai-team-strands-extremely-aggressive` sample in
 On top of it, a shared library makes most decisions in code within the engine's time limit,
 and the LLM handles the rest.
 
+
+
+<img width="1264" height="579" alt="Captura de pantalla 2026-11-01 160454" src="https://github.com/user-attachments/assets/1624a368-3daf-4a66-9801-a7645f9e0a59" />
+
+
+
+
 ## What's inside
 
 ```
